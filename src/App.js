@@ -25,7 +25,7 @@ export default class App extends Component {
     } else {
       return (
         <div>
-          <img src={`${this.state.data[this.state.index].image}`}></img>
+          <img alt="" src={`${this.state.data[this.state.index].image}`}></img>
           <p>{this.state.data[this.state.index].name}</p>
         </div>
       );
